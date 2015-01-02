@@ -1,0 +1,54 @@
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+#include <deque>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+
+#include <string>
+#include <cstring>
+
+
+using namespace std;
+
+#define si(a) scanf("%d",&a)
+#define sf(a) scanf("%f",&a)
+#define sc(a) scanf("%c",&a)
+#define ss(a) scanf("%s",&a)
+#define f(i,n) for(i=0;i<n;i++)
+#define pi(a) printf("%d",a)
+#define pf(a) printf("%f",a)
+#define pc(a) printf("%c",a)
+#define ps(a) printf("%s",a)
+
+typedef long long ll;
+typedef vector<int> vi;
+typedef vector<vector<int> > vvi;
+typedef vector<bool> vb;
+typedef vector<vector<bool> > vvb;
+
+class <%:class-name%> {
+public:
+	<%:return-type%> <%:method-name%>(<%:param-type-list%>);
+};
+
+<%:return-type%> <%:class-name%>::<%:method-name%>(<%:param-list%>) {
+	<%:set-caret%>
+}
+
+<%:testing-code%>
+//Powered by [KawigiEdit] 2.0!
+
+
